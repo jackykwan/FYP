@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "[json]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": false
+        },
+    },
+}

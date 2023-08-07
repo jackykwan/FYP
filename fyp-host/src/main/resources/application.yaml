@@ -1,0 +1,15 @@
+jwt:
+  secret: mysecretkkmfyp
+  token-header: Authorization
+  token-head: Bearer
+  token-timeout-hours: 10000
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://dbUser:U8KDDGvrVHRKMZgQ@cluster0.1vkpxex.mongodb.net
+      auto-index-creation: true
+      database: database
+
+server:
+  port: 8080
